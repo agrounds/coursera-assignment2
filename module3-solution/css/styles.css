@@ -1,13 +1,24 @@
 .nav-spacer {
-  margin: -15px 0 -15px 0;
+  margin: -15px 0;
 }
 
-.container-fluid section {
-  margin: 10px;
-  padding: 15px;
+.food-sec {
   background-color: grey;
+  padding: 15px;
+  height: 700px;
+  position: relative;
 }
 
-#main {
-  height: 1000px;
+.food-col {
+  padding: 15px;
+}
+
+.top-link {
+  color: black;
+  position: absolute;
+  bottom: 10px;
+}
+
+.top-link:hover {
+  color: black;
 }
