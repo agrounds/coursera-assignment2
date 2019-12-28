@@ -11,12 +11,10 @@
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
  --></head>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container">
+  <nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-          <h1>Food, LLC</h1>
-        </a>
+        <a class="navbar-brand" href="#">Food, LLC</a>
 
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
           <span class="icon-bar"></span>
@@ -28,13 +26,19 @@
       <div id="collapsable-nav" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right visible-xs">
           <li class="text-center">
-            <a href="#chicken">Chicken</a>
+            <a class="nav-element" href="#chicken">Chicken</a>
+          </li>
+          <li class="nav-spacer">
+            <hr>
           </li>
           <li class="text-center">
-            <a href="#beef">Beef</a>
+            <a class="nav-element" href="#beef">Beef</a>
+          </li>
+          <li class="nav-spacer">
+            <hr>
           </li>
           <li class="text-center">
-            <a href="#sushi">Sushi</a>
+            <a class="nav-element" href="#sushi">Sushi</a>
           </li>
         </ul>
       </div>
@@ -42,33 +46,35 @@
   </nav>
 
   <h2 class="text-center">Our Menu</h2>
-  <div class="container">
-    <section id="chicken" class="row">
-      <h3 class="col-xs-12 text-center">Chicken</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-    <section id="beef" class="row">
-      <h3 class="col-xs-12 text-center">Beef</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-    <section id="sushi" class="row">
-      <h3 class="col-xs-12 text-center">Sushi</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div class="container-fluid">
+    <section class="col-xs-12" id="main">
+      <section id="chicken" class="row">
+        <h3 class="col-xs-12 text-center">Chicken</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+      <section id="beef" class="row">
+        <h3 class="col-xs-12 text-center">Beef</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+      <section id="sushi" class="row">
+        <h3 class="col-xs-12 text-center">Sushi</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
     </section>
   </div>
 
